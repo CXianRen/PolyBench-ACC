@@ -20,6 +20,8 @@ if [ $# -ne 1 ]; then
 fi;
 
 
+ECHO_CMD="echo";
+
 compute_mean_exec_time()
 {
     file="$1";
